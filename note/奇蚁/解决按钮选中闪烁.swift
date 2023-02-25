@@ -1,0 +1,5 @@
+let btn = UIButton(type: .primary)
+btn.setTitle(localize.jobStatus_open(), for: .normal)
+btn.setTitle(localize.jobStatus_open(), for: .highlighted)
+btn.setTitle(localize.jobStatus_close(), for: .selected)
+btn.setTitle(localize.jobStatus_close(), for: [.selected, .highlighted])
